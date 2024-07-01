@@ -114,7 +114,7 @@ function ResponsiveDrawer(props) {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0, ml: 142, mr: 2  }}>
-                <Avatar alt="Remy Sharp" src="./src/assets/avatar.jpg" />
+                <Avatar alt="X" src="./src/assets/avatar.jpg" />
               </IconButton>
             </Tooltip>
             <Menu
