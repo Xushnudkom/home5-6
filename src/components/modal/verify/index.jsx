@@ -85,12 +85,13 @@ export default function BasicModal({ open, setOpen, email, closeModal }) {
             variant="h6"
             component="h2"
           >
-            Parolni kiriting
+          Emailga yuborilgan kodni kiriting:
           </Typography>
           <form onSubmit={handleSubmit}>
             <TextField
               fullWidth
               id="fullWidth"
+              type="number"
               label="Parol"
               sx={{ marginY: "20px" }}
               onChange={(e) => setCode(e.target.value)}
